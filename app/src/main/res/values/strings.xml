@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GPSReminderMapBox</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYmFsYXN1cml5YTI5IiwiYSI6ImNsbG9wb2lnczBkajQzZm9hdnBzOHhpeHcifQ.M3spRBFNgKl2c6PGlmr6Zw</string>
+    <string name="locationText">%1$f, %2$f</string>
+    <string name="locationTextAlt">%1$s</string>
+    <string name="nameText">Task %1$d</string>
+    <string name="searchKm">%1$skm</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nodeParent"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:elevation="11dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/node_bg">
+    <TextView
+        android:id="@+id/nodeNumber"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="1"/>
+    <TextView
+        android:id="@+id/nodePriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="5"
+        android:textColor="@color/prior_5"
+        android:fontFamily="@font/poppins"
+        android:textSize="15sp"
+        />
+</RelativeLayout>

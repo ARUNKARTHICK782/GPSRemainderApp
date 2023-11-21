@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/searchParent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pin" />
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/searchTitle"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:lines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/searchDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:lines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppins"
+                android:textSize="13sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@drawable/baseline_arrow_outward_24" />
+            <TextView
+                android:id="@+id/searchDistance"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="1km"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/searchDivider"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+</LinearLayout>
